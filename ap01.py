@@ -338,5 +338,5 @@ def update_over(exchange, leverage, start_date, end_date):
 ############################## End update_over function and callback ##############################
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
-    #app.run_server(debug=True, host='0.0.0.0')
+    #app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0')
